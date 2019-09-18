@@ -21,6 +21,7 @@ public enum Cell {
 	// Functions identically to default getter ( getSymbol() )
     @Override
     public String toString() {
+System.out.println("In the cell");
         return symbol;
     }
 
